@@ -1,0 +1,19 @@
+:root {
+    --header-height : 7rem;
+}
+.header {
+    background-color: #28a745;
+    color: #fff;
+    height: var(--header-height);
+
+}
+#header__search-input {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.container{
+    padding: 0;
+}
+.jumbotron {
+    margin-top: var(--header-height);
+}
